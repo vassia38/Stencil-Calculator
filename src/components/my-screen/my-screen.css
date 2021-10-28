@@ -1,0 +1,15 @@
+.screen-wrapper {
+  background-color: darkseagreen;
+  color: black;
+  border-radius: 7px;
+  overflow: hidden;
+  font-family:inherit;
+  text-align:right;
+  padding-right:1%;
+  font-size: 24px;
+}
+.screen-wrapper > p {
+    width:99%;
+    
+    
+}

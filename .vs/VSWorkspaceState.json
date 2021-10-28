@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\my-board",
+    "\\src\\components\\my-calculator",
+    "\\src\\components\\my-history",
+    "\\src\\components\\my-screen",
+    "\\src\\global"
+  ],
+  "SelectedNode": "\\src\\components\\my-calculator\\my-calculator.css",
+  "PreviewInSolutionExplorer": false
+}

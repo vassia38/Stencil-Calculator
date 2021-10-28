@@ -1,0 +1,37 @@
+.board-wrapper {
+  display:flex;
+  flex-flow: row ;
+  justify-content: center;
+}
+.grid-3x3-wrapper{
+    display:flex;
+    flex-flow: row wrap;
+    flex-grow: 2;
+}
+.grid-1x2-wrapper{
+    display:flex;
+    flex-flow:column;
+    flex-grow:1;
+}
+
+.grid-1x2-wrapper > button:first-child{
+    height:20%;
+}
+.grid-1x2-wrapper > button:last-child{
+    height:80%;
+}
+
+button {
+  font-family: inherit;
+  background-color: lightgrey;
+  border-radius: 4px;
+  font-size: 24px;
+  padding: 0;
+}
+
+.grid-3x3-wrapper > button {
+  flex-basis: calc( 100%/3 );
+}
+#key_clear{
+    color: red;
+}

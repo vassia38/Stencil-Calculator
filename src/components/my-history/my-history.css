@@ -1,0 +1,11 @@
+.history-wrapper {
+  background-color: darkseagreen;
+  color: black;
+  border-radius: 7px;
+  overflow: auto;
+  height: 200px;
+  /*!!!aici!!!!*/
+}
+.history-wrapper > p {
+  margin: 0;
+}

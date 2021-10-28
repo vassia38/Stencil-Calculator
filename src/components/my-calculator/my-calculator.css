@@ -1,0 +1,21 @@
+.calculator-wrapper {
+  background-color: darkslategrey;
+  border: thin darkslategrey;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+}
+
+.item:last-child {
+  page-break-before: always;
+  flex-grow: 1;
+}
+@media (max-width: 600px) {
+  .item:last-child {
+    page-break-before: avoid;
+  }
+}

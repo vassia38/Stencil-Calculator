@@ -1,0 +1,15 @@
+body {
+  align-items: center;
+  font-family: Consolas, 'Lucida Console';
+  padding: 0 10% 0 10%;
+}
+
+.item:last-child {
+  page-break-before: always;
+  flex-grow:1;
+}
+
+/*!!!!aici!!!*/
+my-history{
+    
+}
