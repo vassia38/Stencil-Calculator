@@ -16,7 +16,7 @@ export class MyCalculator {
       expString: ''
     }
 
-  @Event({ eventName: "newHistoryEntry" }) newHistoryEntry: EventEmitter;
+  @Event() newHistoryEntry: EventEmitter;
 
   @Listen('buttonClicked')
   buttonClickedHandler(event: CustomEvent) {
@@ -36,7 +36,7 @@ export class MyCalculator {
   entryClickedHandler(event: CustomEvent) {
     console.log(event.detail.target);
     const entryElement = event.detail.target;
-    this.displayedText = entryElement.dataset.value;
+    this.displayedText = entryElement.dataset.value ?? 0;
     this.myDataset.firstValue = '';
     this.myDataset.modValue = '';
     this.myDataset.operator = '';
